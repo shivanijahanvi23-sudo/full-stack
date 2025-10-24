@@ -59,13 +59,15 @@ public class BaseClass {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(
                 Long.parseLong(p.getProperty("page_load_timeout"))));
         logger.info("Connected to Selenium Grid at: " + p.getProperty("grid_url"));
+         return
     }
-
+    
     @AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();
             logger.info("Browser closed successfully");
+             return
         }
     }
 }

@@ -5,6 +5,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -68,6 +69,14 @@ public class BaseClass {
             driver.quit();
             logger.info("Browser closed successfully");
              return
+            	return 
+            			return
+System.out.printnl("test4")
+System.out.printnl("test4")
+System.out.printnl("test4")
+
+ 
+            					
         }
     }
 }
